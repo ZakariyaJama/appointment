@@ -1,5 +1,5 @@
 import React from "react";
-import { TileList } from '../../components/tileList/TileList';
+import { TileList as ImportedTileList } from '../../components/tileList/TileList';
 
 
 const TileList = ({ tiles }) => {
