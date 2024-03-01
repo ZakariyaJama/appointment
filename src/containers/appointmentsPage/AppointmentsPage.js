@@ -52,3 +52,5 @@ export const AppointmentsPage = ({ appointments, addAppointment, contacts }) => 
     </div>
   );
 };
+
+export default AppointmentsPage;
