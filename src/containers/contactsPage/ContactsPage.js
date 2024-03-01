@@ -49,3 +49,6 @@ export const ContactsPage = ({ contacts, addContact }) => {
     </div>
   );
 };
+
+export default ContactsPage;
+
