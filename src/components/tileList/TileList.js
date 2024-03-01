@@ -1,5 +1,6 @@
 import React from "react";
-import { Tile } from "./Tile"; // Adjust this path to the actual location of Tile.js
+import { Tile } from '../tile/Tile'; // Adjust the path based on your directory structure
+ // Adjust this path to the actual location of Tile.js
 
 export const TileList = ({ tiles }) => {
   return (
