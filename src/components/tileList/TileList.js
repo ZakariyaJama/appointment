@@ -1,8 +1,8 @@
 import React from "react";
-import { Tile } from '../tile/Tile'; // Adjust the path based on your directory structure
- // Adjust this path to the actual location of Tile.js
+import { TileList } from '../../components/tileList/TileList';
 
-export const TileList = ({ tiles }) => {
+
+const TileList = ({ tiles }) => {
   return (
     <div>
       {tiles.map((tile, index) => (
@@ -15,3 +15,5 @@ export const TileList = ({ tiles }) => {
     </div>
   );
 };
+
+export default TileList;
