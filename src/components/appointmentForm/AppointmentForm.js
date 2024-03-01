@@ -1,6 +1,7 @@
 import React from "react";
+import { AppointmentForm } from '../../components/appointmentForm/AppointmentForm';
 
-export const AppointmentForm = ({
+const AppointmentForm = ({
   contacts,
   title,
   setTitle,
@@ -63,3 +64,5 @@ export const AppointmentForm = ({
     </form>
   );
 };
+
+export default AppointmentForm;
